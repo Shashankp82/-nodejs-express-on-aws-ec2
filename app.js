@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Testing CI-CD pipe line with AWS code deploy and Nodejs(express) with $(hostname -f) Thank you!! </h1> <h4>Message: Success</h4> <p>Version 1.3</p>');
+  res.send('<h1>Testing CI-CD pipe line with AWS code deploy and Nodejs(express) with `$(hostname -f)` Thank you!! </h1> <h4>Message: Success</h4> <p>Version 1.3</p>');
 })
 
 app.get('/products', (req, res) => {
