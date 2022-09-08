@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express app is just demo app with node js and aws codedeploy. Thank you. </h1> <h4>Message: Success</h4> <p>Version 1.1</p>');
+  res.send('<h1>Testing CI-CD pipe line with AWS code deploy and Node JS Express app with node JS Thank you!! </h1> <h4>Message: Success</h4> <p>Version 1.2</p>');
 })
 
 app.get('/products', (req, res) => {
